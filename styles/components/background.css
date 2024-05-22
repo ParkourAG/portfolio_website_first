@@ -1,0 +1,29 @@
+.background{
+    position: absolute;
+    overflow: hidden;
+    width: 100vw;
+    z-index: -100;
+    /* height: 200vh; */
+}
+.bubbles{
+    position: relative;
+}
+.bubbles span{
+    display: block;
+    background-color: rgba(255, 255, 255, 0.572);
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin: 2rem;
+    animation: animate 5s linear infinite;
+    animation-duration: calc(180s/ var(--i));
+}
+
+@keyframes animate{
+    0%{
+        transform: translateY(20vh) translateX(130vw);
+    }
+    100%{
+        transform: translateY(-10vh) translateX(-10vw);
+    }
+}
