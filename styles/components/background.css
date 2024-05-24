@@ -3,7 +3,9 @@
     overflow: hidden;
     width: 100vw;
     z-index: -100;
-    /* height: 200vh; */
+    /* height: 100%; */
+    top: 0;
+    left: 0;
 }
 .bubbles{
     position: relative;
@@ -21,7 +23,7 @@
 
 @keyframes animate{
     0%{
-        transform: translateY(20vh) translateX(130vw);
+        transform: translateY(-120vh) translateX(130vw);
     }
     100%{
         transform: translateY(-10vh) translateX(-10vw);
