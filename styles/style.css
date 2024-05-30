@@ -34,13 +34,13 @@
 html {
     scroll-behavior: smooth;
     color: var(--clr--light);
-    overflow-x: hidden;
 }
 
 body {
     font-family: 'General Sans', sans-serif;
     background-color: var(--clr--dark);
     overflow-x: hidden;
+    /* overflow-y: hidden; */
     /* overflow: hidden; */
 }
 picture,

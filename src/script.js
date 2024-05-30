@@ -5,6 +5,3 @@ function resizeParticles() {
 }
 
 resizeParticles();
-
-// window.addEventListener('resize', resizeParticles);
-// window.addEventListener('load', resizeParticles);
